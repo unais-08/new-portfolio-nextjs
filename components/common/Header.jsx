@@ -98,7 +98,7 @@ export default function Header() {
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
         isScrolled
           ? "bg-white/90 dark:bg-secondary-900/90 shadow-md backdrop-blur-sm"
-          : "bg-transparent dark:bg-secondary-900/90 shadow-none"
+          : "bg-transparent "
       }`}
     >
       <div className="container-custom py-4 px-4 md:py-5">
@@ -127,7 +127,7 @@ export default function Header() {
               href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-5 py-2.5 rounded-lg bg-gradient-to-r from-primary-500 to-primary-600 text-white font-medium shadow-lg shadow-primary-500/30 hover:shadow-primary-500/50 hover:scale-105 active:scale-95 transition-all duration-300 flex items-center space-x-2"
+              className="w-full sm:w-auto px-4 sm:px-5 py-2 sm:py-2.5 rounded-lg bg-gradient-to-r from-primary-500 to-primary-600 text-sm sm:text-base text-white font-medium shadow-lg shadow-primary-500/30 hover:shadow-primary-500/50 hover:scale-[1.03] active:scale-95 transition-all duration-300 flex items-center justify-center space-x-2"
             >
               Resume
             </a>
@@ -188,17 +188,16 @@ export default function Header() {
                   href="/resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-primary w-full text-center py-3"
-                  onClick={handleLinkClick}
+                  className="w-full sm:w-auto px-4 sm:px-5 py-2 sm:py-2.5 rounded-lg bg-gradient-to-r from-primary-500 to-primary-600 text-sm sm:text-base text-white font-medium shadow-lg shadow-primary-500/30 hover:shadow-primary-500/50 hover:scale-[1.03] active:scale-95 transition-all duration-300 flex items-center justify-center space-x-2"
                 >
                   Resume
                 </a>
               </div>
 
               {/* Theme toggle in mobile menu */}
-              <div className="mt-6 text-center">
+              {/* <div className="mt-6 text-center">
                 <ThemeToggler size={24} />
-              </div>
+              </div> */}
 
               <div className="pt-4 border-t border-gray-100 dark:border-gray-800">
                 <h3 className="text-lg font-medium text-secondary-700 dark:text-secondary-300 mb-4 px-2 text-center">
