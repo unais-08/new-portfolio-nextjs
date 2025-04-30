@@ -101,7 +101,7 @@ export default function Header() {
           : "bg-transparent "
       }`}
     >
-      <div className="container-custom py-4 px-4 md:py-5">
+      <div className="container-custom py-4 px-4 md:py-3">
         <div className="flex items-center justify-between">
           {/* Desktop Navigation - Left Side */}
           <nav className="hidden md:flex items-center">
