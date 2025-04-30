@@ -7,7 +7,9 @@ import { FiExternalLink, FiGithub } from "react-icons/fi";
 export default function ProjectCard({ project, fullWidth = false }) {
   return (
     <motion.div
-      className={`card group h-full ${fullWidth ? "w-full" : ""}`}
+      className={`group h-full rounded-xl bg-white dark:bg-secondary-900 
+    shadow-xl dark:shadow-lg transition-shadow duration-300
+    ${fullWidth ? "w-full" : ""}`}
       whileHover={{ y: -5 }}
       transition={{ duration: 0.2 }}
     >
@@ -42,7 +44,8 @@ export default function ProjectCard({ project, fullWidth = false }) {
         <Image
           src={project.image || "/api/placeholder/600/400"}
           alt={project.title}
-          fill
+          width={600}
+          height={400}
           className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
         />
       </div>

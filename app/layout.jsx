@@ -13,10 +13,10 @@ export default function RootLayout({ children }) {
     <html lang="en" suppressHydrationWarning>
       <body>
         <ThemeProvider>
-          <div className="flex flex-col min-h-screen">
+          <div className="flex flex-col ">
             <Header />
             <main className="flex-grow">{children}</main>
-            {/* <Footer /> */}
+            <Footer />
           </div>
         </ThemeProvider>
       </body>
