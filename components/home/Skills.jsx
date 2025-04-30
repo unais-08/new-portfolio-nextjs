@@ -8,7 +8,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="section bg-secondary-50 dark:bg-secondary-900 py-20 font-sans"
+      className="section bg-secondary-50 dark:bg-secondary-900 py-12 sm:py-20 font-sans"
     >
       <div className="container-custom px-4 sm:px-6 lg:px-8">
         <motion.div
