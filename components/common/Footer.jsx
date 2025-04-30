@@ -63,10 +63,10 @@ export default function Footer() {
               Open to collaborations or just a friendly chat.
             </p>
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:unaissk1577@example.com"
               className="text-primary-600 dark:text-primary-400 hover:underline break-all"
             >
-              your.email@example.com
+              unaissk1577@gmail.com
             </a>
           </div>
 

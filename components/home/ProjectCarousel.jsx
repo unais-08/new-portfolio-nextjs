@@ -10,7 +10,7 @@ export default function ProjectCarousel({ projects }) {
   const [carouselWidth, setCarouselWidth] = useState(0);
   const [itemsToShow, setItemsToShow] = useState(3);
   const carouselRef = useRef(null);
-  console.log("projects", projects);
+
   useEffect(() => {
     const handleResize = () => {
       const width = window.innerWidth;
@@ -81,7 +81,7 @@ export default function ProjectCarousel({ projects }) {
         >
           {projects.map((project) => (
             <div
-              key={project.id}
+              key={project._id}
               className="w-full px-2 flex-shrink-0"
               style={{ width: `${100 / itemsToShow}%` }}
             >
