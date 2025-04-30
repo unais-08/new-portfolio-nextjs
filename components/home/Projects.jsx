@@ -5,10 +5,39 @@ import { FiArrowRight } from "react-icons/fi";
 import Link from "next/link";
 import ProjectCarousel from "./ProjectCarousel";
 import { projects } from "@/data/projects";
+import { useEffect, useState } from "react";
 
+export async function getProjects() {
+  const res = await fetch(`http://localhost:3000/api/projects`);
+  const data = await res.json();
+  console.log(data);
+  if (!res.ok) throw new Errorr("Failed to fetch projects");
+  return data;
+}
 export default function Projects() {
-  const featuredProjects = projects.filter((project) => project.featured);
+  const [featuredProjects, setFeaturedProjects] = useState([]);
+  const [loading, setLoading] = useState(false);
 
+  useEffect(() => {
+    const fetchProjects = async () => {
+      try {
+        setLoading(true);
+        const projects = await getProjects();
+        setFeaturedProjects(projects);
+        console.log(projects);
+        setLoading(false);
+      } catch (error) {
+        console.error("Error fetching projects:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchProjects();
+  }, []);
+  if (loading) {
+    return <h1>Loading....</h1>;
+  }
   return (
     <section
       id="projects"

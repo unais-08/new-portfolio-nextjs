@@ -16,9 +16,9 @@ export default function ProjectCard({ project, fullWidth = false }) {
       {/* Project Image */}
       <div className="relative w-full h-48 overflow-hidden">
         <div className="absolute inset-0 bg-secondary-900/50 dark:bg-secondary-900/70 z-10 opacity-0 group-hover:opacity-100 flex items-center justify-center gap-4 transition-opacity duration-300">
-          {project.demoUrl && (
+          {project.liveUrl && (
             <a
-              href={project.demoUrl}
+              href={project.liveUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-white/90 dark:bg-secondary-800/90 rounded-full text-primary-600 dark:text-primary-400 hover:scale-110 transition-transform"
@@ -42,8 +42,8 @@ export default function ProjectCard({ project, fullWidth = false }) {
         </div>
 
         <Image
-          src={project.image || "/api/placeholder/600/400"}
-          alt={project.title}
+          src={project.images || "/api/placeholder/600/400"}
+          alt={project.name}
           width={600}
           height={400}
           className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
@@ -61,7 +61,7 @@ export default function ProjectCard({ project, fullWidth = false }) {
         </p>
 
         <div className="flex flex-wrap gap-2 mt-4">
-          {project.technologies.slice(0, 4).map((tech) => (
+          {(project.technologies || []).slice(0, 4).map((tech) => (
             <span
               key={tech}
               className="px-2 py-1 bg-secondary-100 dark:bg-secondary-700 text-secondary-700 dark:text-secondary-300 text-xs rounded-md"
@@ -69,7 +69,7 @@ export default function ProjectCard({ project, fullWidth = false }) {
               {tech}
             </span>
           ))}
-          {project.technologies.length > 4 && (
+          {project.technologies?.length > 4 && (
             <span className="px-2 py-1 bg-secondary-100 dark:bg-secondary-700 text-secondary-700 dark:text-secondary-300 text-xs rounded-md">
               +{project.technologies.length - 4}
             </span>
