@@ -16,10 +16,8 @@ import {
   SiC,
   SiAmazons3,
   SiCloudfoundry,
+  SiNextdotjs,
 } from "react-icons/si";
-import { RiCommunityFill, RiTeamFill } from "react-icons/ri";
-
-import { FaBrain } from "react-icons/fa";
 
 export const skillGroups = [
   {
@@ -37,13 +35,13 @@ export const skillGroups = [
     skills: [
       { name: "HTML", icon: SiHtml5, color: "#E34F26" },
       { name: "CSS", icon: SiCss3, color: "#1572B6" },
+      { name: "NextJS", icon: SiNextdotjs, color: "#1572B6" },
       { name: "ReactJS", icon: SiReact, color: "#61DAFB" },
       { name: "NodeJS", icon: SiNodedotjs, color: "#339933" },
       { name: "ExpressJS", icon: SiExpress, color: "#000000" },
       { name: "MongoDB", icon: SiMongodb, color: "#47A248" },
       { name: "Socket.io", icon: SiSocketdotio, color: "#010101" },
       { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4" },
-      { name: "Zustand", icon: null, color: "#764ABC" },
     ],
   },
   // {

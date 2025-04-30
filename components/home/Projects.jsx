@@ -32,13 +32,12 @@ export default function Projects() {
         </motion.div>
 
         <ProjectCarousel projects={featuredProjects} />
-
-        <div className="mt-12 text-center">
+        <div className="mt-12 flex justify-center">
           <Link
             href="/projects"
-            className="btn btn-primary inline-flex items-center justify-center gap-2 px-6 py-3 font-semibold rounded-xl shadow-md hover:brightness-110 transition duration-300"
+            className="inline-flex items-center px-5 py-2.5 rounded-lg bg-gradient-to-r from-primary-500 to-primary-600 text-sm sm:text-base text-white font-medium shadow-lg shadow-primary-500/30 hover:shadow-primary-500/50 hover:scale-[1.03] active:scale-95 transition-all duration-300 space-x-2"
           >
-            View All Projects
+            <span>View All Projects</span>
             <FiArrowRight className="text-lg" />
           </Link>
         </div>

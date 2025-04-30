@@ -1,5 +1,8 @@
+"use client";
+
 import Link from "next/link";
 import SocialLinks from "./SocialLinks";
+import ThemeToggler from "./ThemeToggler";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -12,68 +15,72 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-secondary-100 dark:bg-secondary-800">
-      <div className="container-custom py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* Brand */}
-          <div>
-            <Link
-              href="/"
-              className="text-2xl font-bold text-primary-600 dark:text-primary-400"
-            >
-              Unais
-            </Link>
-            <p className="mt-4 text-secondary-600 dark:text-secondary-400">
-              Full Stack Developer passionate about creating innovative web
-              solutions.
-            </p>
-            <SocialLinks className="flex space-x-4 mt-6" />
+    <footer className="bg-secondary-100 dark:bg-secondary-900 border-t border-secondary-200 dark:border-secondary-700 text-sm font-medium">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+        {/* Brand Section */}
+        <div className="flex flex-col">
+          <Link
+            href="/"
+            className="text-3xl font-extrabold text-primary-600 dark:text-primary-400 tracking-tight"
+          >
+            Unais
+          </Link>
+          <p className="mt-4 text-secondary-600 dark:text-secondary-400 leading-relaxed max-w-md">
+            Full Stack Developer passionate about building accessible,
+            performant, and modern web experiences.
+          </p>
+          <div className="mt-6">
+            <SocialLinks className="flex gap-4" />
           </div>
+        </div>
 
-          {/* Quick Links */}
-          <div>
-            <h3 className="text-lg font-semibold text-secondary-900 dark:text-white mb-4">
-              Quick Links
-            </h3>
-            <ul className="space-y-2">
-              {quickLinks.map((link) => (
-                <li key={link.name}>
-                  <Link
-                    href={link.href}
-                    className="text-secondary-600 dark:text-secondary-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
-                  >
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
+        {/* Quick Links */}
+        <div>
+          <h3 className="text-lg font-semibold text-secondary-900 dark:text-white mb-4">
+            Quick Links
+          </h3>
+          <ul className="space-y-2">
+            {quickLinks.map((link) => (
+              <li key={link.name}>
+                <Link
+                  href={link.href}
+                  className="text-secondary-600 dark:text-secondary-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
+                >
+                  {link.name}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
 
-          {/* Contact */}
+        {/* Contact */}
+        <div className="flex flex-col justify-between">
           <div>
             <h3 className="text-lg font-semibold text-secondary-900 dark:text-white mb-4">
               Contact
             </h3>
             <p className="text-secondary-600 dark:text-secondary-400 mb-2">
-              Feel free to reach out for collaborations or just a friendly chat.
+              Open to collaborations or just a friendly chat.
             </p>
             <a
               href="mailto:your.email@example.com"
-              className="text-primary-600 dark:text-primary-400 hover:underline"
+              className="text-primary-600 dark:text-primary-400 hover:underline break-all"
             >
               your.email@example.com
             </a>
           </div>
-        </div>
 
-        <div className="border-t border-secondary-200 dark:border-secondary-700 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-secondary-600 dark:text-secondary-400 text-sm">
-            © {currentYear} Shaikh Unais. All rights reserved.
-          </p>
-          <p className="text-secondary-600 dark:text-secondary-400 text-sm mt-2 md:mt-0">
-            Designed and built with ❤️
-          </p>
+          <div className="mt-6 sm:mt-8">
+            <ThemeToggler />
+          </div>
         </div>
+      </div>
+
+      <div className="border-t border-secondary-200 dark:border-secondary-700 pt-6 pb-8 px-4 sm:px-6 lg:px-12 max-w-7xl mx-auto text-center text-secondary-600 dark:text-secondary-400">
+        <p>© {currentYear} Shaikh Unais. All rights reserved.</p>
+        <p className="mt-2 text-xs">
+          Built with ❤️ using Next.js & Tailwind CSS
+        </p>
       </div>
     </footer>
   );
