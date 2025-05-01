@@ -5,7 +5,7 @@ import ProjectCard from "@/components/common/ProjectCard";
 
 export default function ProjectsGrid({ projects }) {
   // Animation variants for staggered animation
-  console.log("Projects in ProjectsGrid:", projects);
+  // console.log("Projects in ProjectsGrid:", projects);
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {

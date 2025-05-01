@@ -31,15 +31,15 @@ export default function GalleryClient({ allProjects }) {
   const categories = unique(allProjects.map((p) => p.category));
 
   return (
-    <section className="lg:min-h-screen flex flex-col lg:flex-row gap-6 px-4 py-6 dark:bg-black bg-white transition-colors duration-300">
+    <section className="lg:min-h-screen flex flex-col lg:flex-row gap-6 px-4 py-8 dark:bg-black bg-white transition-colors duration-300">
       {/* Sidebar filter for large screens */}
-      <aside className="w-full lg:w-64 border rounded-lg p-4 h-fit lg:sticky lg:top-1/2 lg:-translate-y-1/2 dark:border-gray-700 dark:bg-gray-900 bg-white">
-        <h2 className="text-lg font-semibold mb-4 dark:text-white">
-          Filter Projects
-        </h2>
-
-        {/* Only visible on large screens */}
+      <aside className="w-full lg:w-64 border rounded-lg p-4 h-fit dark:border-gray-700 dark:bg-gray-900 bg-white lg:sticky lg:top-1/2 lg:-translate-y-1/2 lg:self-start mt-8">
+        {/* Hidden on mobile */}
         <div className="hidden lg:block">
+          <h2 className="text-lg font-semibold mb-4 dark:text-white">
+            Filter Projects
+          </h2>
+
           <input
             type="text"
             placeholder="Search by name"
