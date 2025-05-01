@@ -1,4 +1,6 @@
 import "../../globals.css";
+
+import Footer from "@/components/common/Footer";
 import Header from "@/components/common/Header";
 import { ThemeProvider } from "@/context/ThemeContext";
 
@@ -6,12 +8,13 @@ export default function ProjectPageLayout({ children }) {
   return (
     <html lang="eng">
       <body>
-        <>
-          <ThemeProvider>
+        <ThemeProvider>
+          <div className="flex flex-col ">
             <Header />
-            <main className="my-5">{children}</main>
-          </ThemeProvider>
-        </>
+            <main className="flex-grow">{children}</main>
+            <Footer />
+          </div>
+        </ThemeProvider>
       </body>
     </html>
   );

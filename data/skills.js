@@ -44,10 +44,6 @@ export const skillGroups = [
       { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4" },
     ],
   },
-  // {
-  //   title: "Databases",
-  //   skills: [{ name: "MongoDB", icon: SiMongodb, color: "#47A248" }],
-  // },
   {
     title: "Tools & Platforms",
     skills: [
