@@ -4,17 +4,17 @@ export default function SocialLinks({ className, size = 20 }) {
   const socialLinks = [
     {
       name: "GitHub",
-      url: "https://github.com/yourusername",
+      url: "https://github.com/unais-08",
       icon: <FiGithub size={size} />,
     },
     {
       name: "LinkedIn",
-      url: "https://linkedin.com/in/yourusername",
+      url: "https://linkedin.com/in/unais08",
       icon: <FiLinkedin size={size} />,
     },
     {
       name: "Twitter",
-      url: "https://twitter.com/yourusername",
+      url: "https://twitter.com/unais-08",
       icon: <FiTwitter size={size} />,
     },
   ];
