@@ -1,0 +1,58 @@
+[
+  {
+    "_id": "67babec81277a87f9b925b0d",
+    "name": "Custom-GPT",
+    "description": "Developed a full-stack AI-powered chat application that enables users to interact with both human contacts and an AI assistant for intelligent, context-aware conversations. The app includes key features such as user authentication, AI-driven responses, message history, and role-based access control. Built using MERN stack, Clerk for authentication, and Gemini Flash for AI capabilities, the application ensures a seamless and responsive user experience with a scalable backend.",
+    "githubUrl": "https://github.com/unais-08/custom-ai",
+    "liveUrl": "https://custom-ai-client.netlify.app/",
+    "techStack": ["REACT", "TAILWIND", "NODE", "EXPRESS", "MONGODB"],
+    "images": "https://res.cloudinary.com/unaiscloudinary/image/upload/v1740291756/project%20images/ssddd_uojyx3.png",
+    "category": "Full Stack",
+    "featured": true
+  },
+  {
+    "_id": "678fb8dcdbefe74f403a15f9",
+    "name": "Socket Chat",
+    "description": "A Socket chat app enables real-time communication between users using WebSockets, allowing messages to be sent and received instantly without reloading the page. It's commonly built with Socket.IO, which handles the connection between client and server efficiently.",
+    "githubUrl": "https://github.com/unais-08/socket-chat",
+    "liveUrl": "https://socket-chat-54k5.onrender.com",
+    "techStack": ["REACT", "SOCKET.IO", "EXPRESS", "MONGODB", "NODE"],
+    "images": "https://res.cloudinary.com/unaiscloudinary/image/upload/v1746089432/project%20images/h62ub1pxioczctgmv7a1.png",
+    "category": "Full Stack",
+    "featured": true
+  },
+
+  {
+    "_id": "678fc7836407785d8e1237a0",
+    "name": "Next Level Food",
+    "description": "A simple food explore website built with Next.js that lets users upload photos of meals and share them with others. It includes basic features like viewing shared meals and submitting new ones through a form.",
+    "githubUrl": "https://github.com/unais-08/nextjs-essentials",
+    "liveUrl": "https://first-nextjs-project-plum.vercel.app",
+    "techStack": ["NEXTJS", "SQLITE"],
+    "images": "https://res.cloudinary.com/unaiscloudinary/image/upload/v1746089801/project%20images/pamtle8oc8hfjvjwpvnx.png",
+    "category": "Full Stack",
+    "featured": true
+  },
+  {
+    "_id": "678fc7186407785d8e12379d",
+    "name": "Simple Shopping Cart",
+    "description": "Simple shopping by using useReducer hook.",
+    "githubUrl": "https://github.com/unais-08/simple-shopping-cart",
+    "liveUrl": "https://simple-cart-reducer.netlify.app/",
+    "techStack": ["REACT", "TAILWIND"],
+    "images": "https://res.cloudinary.com/unaiscloudinary/image/upload/v1737471084/project%20images/simple-cart_imatma.png",
+    "category": "Frontend",
+    "featured": true
+  },
+  {
+    "_id": "6790a49c9cfc05ec21006096",
+    "name": "Restaurant Menu",
+    "description": "Restaurant menu in react with searching sorting functionality according to meals.",
+    "githubUrl": "https://github.com/unais-08/react-projects/tree/main/05-Restaurant%20Menu",
+    "liveUrl": "https://restaurant-menu-reactv1.netlify.app/",
+    "techStack": ["REACT", "CSS"],
+    "images": "https://res.cloudinary.com/unaiscloudinary/image/upload/v1737471069/project%20images/rest-menu_njxbrk.webp",
+    "category": "Frontend",
+    "featured": true
+  }
+]

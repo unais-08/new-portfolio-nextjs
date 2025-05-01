@@ -2,9 +2,9 @@
 
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
-import ThemeToggler from "./ThemeToggler";
-import SocialLinks from "./SocialLinks";
 import { FiMenu, FiX } from "react-icons/fi";
+import SocialLinks from "./SocialLinks";
+import ThemeToggler from "./ThemeToggler";
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -82,7 +82,6 @@ export default function Header() {
 
   const navLinks = [
     { name: "Home", href: "/" },
-    { name: "About", href: "/#about" },
     { name: "Skills", href: "/#skills" },
     { name: "Projects", href: "/projects" },
   ];
@@ -110,7 +109,7 @@ export default function Header() {
                 <li key={link.name}>
                   <Link
                     href={link.href}
-                    className="text-secondary-700 dark:text-secondary-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
+                    className="text-secondary-700 dark:text-secondary-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors tracking-widest"
                   >
                     {link.name}
                   </Link>
@@ -127,7 +126,7 @@ export default function Header() {
               href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full sm:w-auto px-4 sm:px-5 py-2 sm:py-2.5 rounded-lg bg-gradient-to-r from-primary-500 to-primary-600 text-sm sm:text-base text-white font-medium shadow-lg shadow-primary-500/30 hover:shadow-primary-500/50 hover:scale-[1.03] active:scale-95 transition-all duration-300 flex items-center justify-center space-x-2"
+              className="w-full sm:w-auto px-4 sm:px-5 py-2 sm:py-2.5 rounded-lg bg-gradient-to-r from-primary-500 to-primary-600 text-sm sm:text-base text-white font-medium shadow-lg shadow-primary-500/30 hover:shadow-primary-500/50 hover:scale-[1.03] active:scale-95 transition-all duration-300 flex items-center justify-center space-x-2 tracking-widest"
             >
               Resume
             </a>
@@ -193,11 +192,6 @@ export default function Header() {
                   Resume
                 </a>
               </div>
-
-              {/* Theme toggle in mobile menu */}
-              {/* <div className="mt-6 text-center">
-                <ThemeToggler size={24} />
-              </div> */}
 
               <div className="pt-4 border-t border-gray-100 dark:border-gray-800">
                 <h3 className="text-lg font-medium text-secondary-700 dark:text-secondary-300 mb-4 px-2 text-center">

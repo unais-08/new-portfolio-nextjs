@@ -1,0 +1,262 @@
+[
+  {
+    "_id": "678fb6aedbefe74f403a15e2",
+    "name": "Frontend Mentor Challenge - I",
+    "description": " Designed and implemented a sleek and user-friendly interface for the FME Challenge. \n      The UI emphasizes functionality, responsiveness, and a modern aesthetic, ensuring   an intuitive user experience.",
+    "githubUrl": "https://github.com/Unais01/Frontend-Mentor-Challenge",
+    "liveUrl": "https://fme-challenge-01.netlify.app/",
+    "techStack": ["HTML", "CSS"],
+    "images": "https://res.cloudinary.com/unaiscloudinary/image/upload/v1737471065/project%20images/huddle-FMC_zpslci.webp",
+    "category": "Frontend",
+    "featured": false
+  },
+  {
+    "_id": "678fb773dbefe74f403a15ef",
+    "name": "Color Picker",
+    "description": "A simple and interactive tool built with HTML, CSS, and JavaScript. Users can select and preview colors dynamically in real-time. The selected color's HEX or RGB value is displayed, making it ideal for design or customization applications. The interface is clean, responsive, and user-friendly.",
+    "githubUrl": "https://github.com/Unais01/Color-Picker",
+    "liveUrl": "https://basic-color-picker-learning.netlify.app/",
+    "techStack": ["HTML", "CSS", "JAVASCRIPT"],
+    "images": "https://res.cloudinary.com/unaiscloudinary/image/upload/v1737471080/project%20images/color-picker_s3riaq.webp",
+    "category": "Frontend",
+    "featured": false
+  },
+  {
+    "_id": "678fb811dbefe74f403a15f2",
+    "name": "FEM-II-Tailwind CSS",
+    "description": "Created a visually appealing and fully responsive user interface using only HTML and Tailwind CSS for the Front-End mentor  Challenge. The project highlights clean, modern design principles and efficient utility-first styling, showcasing the power of Tailwind in building streamlined and customizable UIs with minimal code.",
+    "githubUrl": "https://github.com/Unais01/Fronted-Mentor-Tailwind",
+    "liveUrl": "https://fme-tailwind-challenge.netlify.app/",
+    "techStack": ["HTML", "TAILWIND"],
+    "images": "https://res.cloudinary.com/unaiscloudinary/image/upload/v1737471065/project%20images/frontend-mentor-challenge_fwthk7.webp",
+    "category": "Frontend",
+    "featured": false
+  },
+  {
+    "_id": "678fb86fdbefe74f403a15f6",
+    "name": "Old Portfolio",
+    "description": "Personal Portfolio design during college.",
+    "githubUrl": "https://github.com/Unais01/Portfolio",
+    "liveUrl": "https://personal-portfolio-us.netlify.app/",
+    "techStack": ["HTML", "CSS", "JAVASCRIPT"],
+    "images": "https://res.cloudinary.com/unaiscloudinary/image/upload/v1737471066/project%20images/old-portfolio_n7nlic.webp",
+    "category": "Frontend",
+    "featured": false
+  },
+  {
+    "_id": "678fb8dcdbefe74f403a15f9",
+    "name": "Whether Forecast App",
+    "description": "Whether app made in vanilla JS. ",
+    "githubUrl": "https://github.com/Unais01/whether-app",
+    "liveUrl": "https://whether-app-using-api.netlify.app/",
+    "techStack": ["HTML", "CSS", "JAVASCRIPT"],
+    "images": "https://res.cloudinary.com/unaiscloudinary/image/upload/v1737471076/project%20images/wheter_app_ahtndi.webp",
+    "category": "Frontend",
+    "featured": false
+  },
+  {
+    "_id": "678fb93cdbefe74f403a15fc",
+    "name": "Simple TODO-List",
+    "description": "Simple TODO list made in vanilla js",
+    "githubUrl": "https://github.com/Unais01/To-Do-List",
+    "liveUrl": "https://todolistappvanillajs.netlify.app/",
+    "techStack": ["HTML", "CSS", "JAVASCRIPT"],
+    "images": "https://res.cloudinary.com/unaiscloudinary/image/upload/v1737471072/project%20images/simple-todo_vcly3a.webp",
+    "category": "Frontend",
+    "featured": false
+  },
+  {
+    "_id": "678fb9a6dbefe74f403a15ff",
+    "name": "Country Details",
+    "description": "Simple app using fetch api in js",
+    "githubUrl": "https://github.com/Unais01/Fetch-Country-Details",
+    "liveUrl": "https://fetchcountydetails.netlify.app/",
+    "techStack": ["HTML", "CSS", "JAVASCRIPT"],
+    "images": "https://res.cloudinary.com/unaiscloudinary/image/upload/v1737471064/project%20images/fetch-country_vfkjwl.webp",
+    "category": "Frontend",
+    "featured": false
+  },
+  {
+    "_id": "678fba69dbefe74f403a1602",
+    "name": "E-Resources",
+    "description": "E-resources for university student ,access of free notes and PYQS.",
+    "githubUrl": "https://github.com/Unais01/E-Resources-DBATU",
+    "liveUrl": "https://e-resources-dbatu.netlify.app/",
+    "techStack": ["HTML", "CSS", "JAVASCRIPT"],
+    "images": "https://res.cloudinary.com/unaiscloudinary/image/upload/v1737471064/project%20images/E-resources_b7mnhi.webp",
+    "category": "Frontend",
+    "featured": false
+  },
+  {
+    "_id": "678fbb3edbefe74f403a1605",
+    "name": "Simple Book Listing",
+    "description": "simple book listening using react for learning purpose.",
+    "githubUrl": "https://github.com/Unais01/Book-Listing",
+    "liveUrl": "https://bookshopee-react.netlify.app/",
+    "techStack": ["React", "CSS"],
+    "images": "https://res.cloudinary.com/unaiscloudinary/image/upload/v1737471070/project%20images/simple-book-shop_xz57ek.webp",
+    "category": "Frontend",
+    "featured": false
+  },
+  {
+    "_id": "678fbc02dbefe74f403a160e",
+    "name": "SDE-Portfolio",
+    "description": "Portfolio websites.",
+    "githubUrl": "https://github.com/Unais01/SDE-Portfolio",
+    "liveUrl": "https://portfoliounais.netlify.app/",
+    "techStack": ["REACT", "TAILWIND"],
+    "images": "https://res.cloudinary.com/unaiscloudinary/image/upload/v1737471068/project%20images/portfolio_rucebx.webp",
+    "category": "Frontend",
+    "featured": false
+  },
+  {
+    "_id": "678fbcb3dbefe74f403a1611",
+    "name": "Task Manager",
+    "description": "Task manger in express and node",
+    "githubUrl": "https://github.com/Unais01/Task-Manger",
+    "liveUrl": "https://task-manger-3wgb.onrender.com/",
+    "techStack": ["NODE", "EXPRESS", "MONGODB"],
+    "images": "https://res.cloudinary.com/unaiscloudinary/image/upload/v1737471074/project%20images/task-manager_wshmz1.png",
+    "category": "Backend",
+    "featured": false
+  },
+  {
+    "_id": "678fc5bd6407785d8e12378f",
+    "name": "Secure-React-Routing",
+    "description": "secure react routing with authentication context using usecontext hooks",
+    "githubUrl": "https://github.com/Unais01/secure-react-route",
+    "liveUrl": "https://secure-react-route.onrender.com/",
+    "techStack": ["REACT", "TAILWIND", "EXPRESS", "NODE", "REACT ROUTERS"],
+    "images": "https://res.cloudinary.com/unaiscloudinary/image/upload/v1737471080/project%20images/auth-with-routing_es37yi.png",
+    "category": "Full Stack",
+    "featured": false
+  },
+  {
+    "_id": "678fc7186407785d8e12379d",
+    "name": "Simple Shopping Cart",
+    "description": "Simple shopping by using useReducer hook.",
+    "githubUrl": "https://github.com/Unais01/simple-shopping-cart",
+    "liveUrl": "https://simple-cart-reducer.netlify.app/",
+    "techStack": ["REACT", "TAILWIND"],
+    "images": "https://res.cloudinary.com/unaiscloudinary/image/upload/v1737471084/project%20images/simple-cart_imatma.png",
+    "category": "Frontend",
+    "featured": false
+  },
+  {
+    "_id": "678fc7836407785d8e1237a0",
+    "name": "MERN-AUTH",
+    "description": "currently backend is not deployed.",
+    "githubUrl": "https://github.com/Unais01/Auth-MERN-Crash-Course",
+    "liveUrl": "https://mern-authentication-system-client.netlify.app/login",
+    "techStack": [
+      "MONGODB",
+      "TAILWIND",
+      "REACT",
+      "NODE",
+      "EXPRESS",
+      "MAILTRAP"
+    ],
+    "images": "https://res.cloudinary.com/unaiscloudinary/image/upload/v1737471080/project%20images/Auth-tutorial_igpips.webp",
+    "category": "Full Stack",
+    "featured": false
+  },
+  {
+    "_id": "678fc7f36407785d8e1237a3",
+    "name": "EMS",
+    "description": "simple employee management system using react basic for learning purpose,it more a backend project",
+    "githubUrl": "https://github.com/Unais01/EMS",
+    "liveUrl": "https://simple-ems.onrender.com/",
+    "techStack": ["MONGODB", "TAILWIND", "REACT", "NODE", "EXPRESS"],
+    "images": "https://res.cloudinary.com/unaiscloudinary/image/upload/v1737471064/project%20images/EMS_ktycgd.png",
+    "category": "Full Stack",
+    "featured": false
+  },
+  {
+    "_id": "678fc8d36407785d8e1237a7",
+    "name": "Random Password Generator",
+    "description": "React random password generator",
+    "githubUrl": "https://github.com/Unais01/react-projects",
+    "liveUrl": "https://password-generation-react.netlify.app/",
+    "techStack": ["REACT", "TAILWIND"],
+    "images": "https://res.cloudinary.com/unaiscloudinary/image/upload/v1737471067/project%20images/password-generatin_k9vxdh.webp",
+    "category": "Frontend",
+    "featured": false
+  },
+  {
+    "_id": "6790a28e9cfc05ec21006087",
+    "name": "Tours Website",
+    "description": "React tours website using use Effect to fetch data.",
+    "githubUrl": "https://github.com/Unais01/react-projects",
+    "liveUrl": "https://tours-website-react.netlify.app/",
+    "techStack": ["React"],
+    "images": "https://res.cloudinary.com/unaiscloudinary/image/upload/v1737471077/project%20images/tours-website_luhv0g.png",
+    "category": "Frontend",
+    "featured": false
+  },
+  {
+    "_id": "6790a3029cfc05ec2100608a",
+    "name": "Reviews Slider",
+    "description": "develop slider logic in react in beginner mode.",
+    "githubUrl": "https://github.com/Unais01/react-projects/tree/main/03-Reviews%20Slider",
+    "liveUrl": "https://reviews-slide-reactjs.netlify.app/",
+    "techStack": ["REACT"],
+    "images": "https://res.cloudinary.com/unaiscloudinary/image/upload/v1737471075/project%20images/testimonials_k23zpo.webp",
+    "category": "Frontend",
+    "featured": false
+  },
+  {
+    "_id": "6790a3649cfc05ec2100608d",
+    "name": "accordian",
+    "description": "Accordion for FAQ's in react.",
+    "githubUrl": "https://github.com/Unais01/react-projects/tree/main/04-Accordion",
+    "liveUrl": "https://accordion-layout-react.netlify.app/",
+    "techStack": ["REACT"],
+    "images": "https://res.cloudinary.com/unaiscloudinary/image/upload/v1737471079/project%20images/accordian_esnysl.webp",
+    "category": "Frontend",
+    "featured": false
+  },
+  {
+    "_id": "6790a3b79cfc05ec21006090",
+    "name": "Tabs",
+    "description": "Tabs layout in react.",
+    "githubUrl": "https://github.com/Unais01/react-projects/tree/main/06-Tab",
+    "liveUrl": "https://tabs-reactjs.netlify.app/",
+    "techStack": ["REACT"],
+    "images": "https://res.cloudinary.com/unaiscloudinary/image/upload/v1737471073/project%20images/tabs_f39c2s.webp",
+    "category": "Frontend",
+    "featured": false
+  },
+  {
+    "_id": "6790a49c9cfc05ec21006096",
+    "name": "Restaurant Menu",
+    "description": "Restaurant menu in react with searching sorting functionality according to meals.",
+    "githubUrl": "https://github.com/Unais01/react-projects/tree/main/05-Restaurant%20Menu",
+    "liveUrl": "https://restaurant-menu-reactv1.netlify.app/",
+    "techStack": ["React", "CSS"],
+    "images": "https://res.cloudinary.com/unaiscloudinary/image/upload/v1737471069/project%20images/rest-menu_njxbrk.webp",
+    "category": "Frontend",
+    "featured": false
+  },
+  {
+    "_id": "6790a8fcf9fcb979706ec81a",
+    "name": "Testimonials",
+    "description": "Testimonial UI in react",
+    "githubUrl": "https://github.com/Unais01/react-projects/tree/main/07-Slider",
+    "liveUrl": "https://slider-react-unais.netlify.app/",
+    "techStack": ["React", "CSS"],
+    "images": "https://res.cloudinary.com/unaiscloudinary/image/upload/v1737471069/project%20images/reviews-slider_y5sqfj.webp",
+    "category": "Frontend",
+    "featured": false
+  },
+  {
+    "_id": "67babec81277a87f9b925b0d",
+    "name": "Custom-GPT",
+    "description": "Developed a full-stack AI-powered chat application that enables users to interact with both human contacts and an AI assistant for intelligent, context-aware conversations. The app includes key features such as user authentication, AI-driven responses, message history, and role-based access control. Built using MERN stack, Clerk for authentication, and Gemini Flash for AI capabilities, the application ensures a seamless and responsive user experience with a scalable backend.",
+    "githubUrl": "https://github.com/unais-08/custom-ai",
+    "liveUrl": "https://custom-ai-client.netlify.app/",
+    "techStack": ["REACT", "TAILWIND", "NODE", "EXPRESS", "MONGODB"],
+    "images": "https://res.cloudinary.com/unaiscloudinary/image/upload/v1740291756/project%20images/ssddd_uojyx3.png",
+    "category": "Full Stack",
+    "featured": true
+  }
+]
