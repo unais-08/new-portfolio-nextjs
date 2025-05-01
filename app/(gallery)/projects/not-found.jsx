@@ -1,5 +1,4 @@
 // app/not-found.js
-import "./globals.css";
 export default function NotFound() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-white dark:bg-black text-center text-black dark:text-white px-4">
