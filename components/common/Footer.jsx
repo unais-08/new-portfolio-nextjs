@@ -1,5 +1,3 @@
-"use client";
-
 import Link from "next/link";
 import SocialLinks from "./SocialLinks";
 import ThemeToggler from "./ThemeToggler";
@@ -9,7 +7,6 @@ export default function Footer() {
 
   const quickLinks = [
     { name: "Home", href: "/" },
-    { name: "About", href: "/#about" },
     { name: "Skills", href: "/#skills" },
     { name: "Projects", href: "/projects" },
   ];

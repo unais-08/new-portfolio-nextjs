@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
+
 import ProjectCard from "@/components/common/ProjectCard";
 
 export default function ProjectCarousel({ projects }) {

@@ -1,6 +1,6 @@
 @import "tailwindcss";
+
 @custom-variant dark (&:where(.dark, .dark *));
-/* @custom-variant dark (&:where(.dark, .dark *)); */
 
 @theme {
   /* Primary */
@@ -38,6 +38,7 @@
   /* Fonts */
   --font-sans: "Inter", sans-serif;
   --font-mono: "JetBrains Mono", monospace;
+  --font-ubuntu: "Ubuntu", sans-serif;
   @keyframes fade-in {
     0% {
       opacity: 0;
