@@ -13,6 +13,7 @@ Welcome to my portfolio website! This project showcases my work, skills, and ach
 - NextJS
 - MongoDB
 - Tailwind CSS
+- Git & GitHub
 - deployment--> Vercel
 
 ---
