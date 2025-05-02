@@ -123,7 +123,7 @@ export default function Header() {
             <SocialLinks className="flex space-x-3" />
             <ThemeToggler />
             <a
-              href="/resume.pdf"
+              href="/portfolio_simple_resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto px-4 sm:px-5 py-2 sm:py-2.5 rounded-lg bg-gradient-to-r from-primary-500 to-primary-600 text-sm sm:text-base text-white font-medium shadow-lg shadow-primary-500/30 hover:shadow-primary-500/50 hover:scale-[1.03] active:scale-95 transition-all duration-300 flex items-center justify-center space-x-2 tracking-widest"
